@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي البسيط</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #0077ff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #005ecc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        .container {
+            padding: 40px;
+            text-align: center;
+        }
+
+        button {
+            padding: 12px 25px;
+            border: none;
+            background: #0077ff;
+            color: white;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background: #005ecc;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>مرحبا بكم في موقعي</h1>
+        <p>موقع بسيط باستخدام HTML و CSS و JavaScript</p>
+    </header>
+
+    <nav>
+        <a href="#">الرئيسية</a>
+        <a href="#">الخدمات</a>
+        <a href="#">من نحن</a>
+        <a href="#">اتصل بنا</a>
+    </nav>
+
+    <div class="container">
+        <h2>هذا مثال لموقع بسيط</h2>
+        <p>يمكنك تعديل النصوص والألوان كما تريد.</p>
+
+        <button onclick="showMessage()">اضغط هنا</button>
+    </div>
+
+    <footer>
+        <p>جميع الحقوق محفوظة © 2026</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            alert('مرحبا بك في الموقع!');
+        }
+    </script>
+
+</body>
+</html>
+```
